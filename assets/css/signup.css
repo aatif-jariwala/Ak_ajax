@@ -1,0 +1,98 @@
+*{margin:0px;font-family: sans-serif;}
+body{
+	background-image: url('../image/2.jpg');
+	/*background-color: #adadb5;*/
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	margin: auto;
+}
+.message{
+	padding: 10px;
+	background-color: #ffc107;
+	flex-direction: row;
+	justify-content: space-around;
+	display: none;
+}
+#demo{
+	text-align: center;
+	width: 100%;
+	font-size: 20px;
+}
+#close{
+	cursor: pointer;
+	font-size: 16px;
+	float:right;
+	margin-right: 10px;
+}
+form{
+	margin-top: 30px;
+}
+table{
+	color: white;
+	border-radius: 10px;
+	margin:auto; 
+	text-align: center; 
+	border-collapse: collapse;
+	background-color: black;
+}
+table tr th{
+	font-size: 20px;
+	text-align: right;
+}
+table tr td{
+	font-size: 21px;
+}
+table tr th,td{
+	padding: 10px;
+}
+input{	
+	width: 200px;
+}
+select{
+	font-size: 19px;
+	width: 350px;
+}
+#name,#email,#password,#cpassword{
+	color: white;
+	text-align: center;
+	font-size: 20px;
+	border-top:0px;
+	border-right:0px;
+	border-left:0px;
+	border-bottom: 1px solid white;
+	background-color: transparent;
+	width: 350px;
+}
+#name:focus,#password:focus,#email:focus,#cpassword:focus{
+	outline: 0px;
+	border-bottom: 1px solid green;
+	transition: 0.6s;
+}
+#signup{
+	width: 200px;
+	font-size: 30px;
+	background-color: green;
+	border-radius: 5px;
+	color: white;
+	border:1px solid black;
+	cursor: pointer;
+	transition: 0.6s;
+}
+#signup:hover{
+	transform: scale(1.1);
+}
+#reset{
+	width: 200px;
+	font-size: 30px;
+	background-color: green;
+	border-radius: 5px;
+	color: white;
+	border:1px solid black;
+	cursor: pointer;
+	transition: 0.6s;
+}
+#reset:hover{
+	transform: scale(1.1);
+}

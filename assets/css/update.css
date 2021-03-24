@@ -1,0 +1,64 @@
+*{margin: 0px;font-family: sans-serif;}
+body{
+	background-image: url('../image/2.jpg');
+	/*background-color: #adadb5;*/
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	margin: auto;
+}
+select{
+	font-size: 19px;
+	width: 350px;
+}
+table{
+	color: white;
+	border-radius: 10px;
+	margin:auto; 
+	text-align: center; 
+	border-collapse: collapse;
+	background-color: black;
+}
+table tr th{
+	font-size: 20px;
+	text-align: right;
+}
+table tr td{
+	font-size: 21px;
+}
+#id,#name,#email,#password,#cpassword{
+	color: white;
+	text-align: center;
+	font-size: 20px;
+	border-top:0px;
+	border-right:0px;
+	border-left:0px;
+	border-bottom: 1px solid white;
+	background-color: transparent;
+	width: 350px;
+}
+#password,#cpassword{
+	margin-left: 30px;
+}
+#id:focus,#name:focus,#password:focus,#email:focus,#cpassword:focus{
+	outline: 0px;
+	border-bottom: 1px solid green;
+	transition: 0.6s;
+}
+h1{
+	text-align: center;
+}
+#update{	
+	font-size: 30px; 
+	background: green;
+	cursor: pointer;
+	border:1px solid black;
+	color:white;
+	padding: 0px 30px 0px 30px; 
+	border-radius: 10px; 
+	transition: 0.6s;
+}
+#update:hover{
+	transform: scale(1.1);
+}

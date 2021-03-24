@@ -1,0 +1,107 @@
+*{
+	font-family: sans-serif;
+	margin: 0;
+}
+body{
+	background-image: url('../image/2.jpg');
+	/*background-color: #adadb5;*/
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	margin: auto;
+}
+#message{
+	padding: 10px;
+	background-color: #ffc107;
+	flex-direction: row;
+	justify-content: space-around;
+	display: none;
+}
+#demo{
+	text-align: center;
+	width: 100%;
+	font-size: 20px;
+}
+#close{
+	cursor: pointer;
+	font-size: 16px;
+	float:right;
+	margin-right: 10px;
+}
+#user_circle{
+	text-align: center;
+	position: relative;
+	left: 650px;
+	top: 30px;
+	color: green;
+	background-color: white;
+	width: 80px;
+	height: 80px;
+	border-radius: 50px;
+}
+table{
+	color: white;
+	border-radius: 5px;
+	margin:auto; 
+	text-align: center; 
+	border-collapse: collapse;
+	background-color: black;
+}
+table tr td .fa-user{
+	position: relative;
+	left: 30px;
+}
+table tr td .fa-lock{
+	position: relative;
+	left: 50px;
+}
+table tr td .fa-eye{
+	cursor: pointer;
+	position: relative;
+	right: 25px;
+}
+#password{
+	margin-left: 25px;
+}
+#name,#password{
+	color: white;
+	padding-left: 35px;
+	font-size: 20px;
+	border-top:0px;
+	border-right:0px;
+	border-left:0px;
+	border-bottom: 1px solid white;
+	background-color: transparent;
+	width: 300px;
+}
+#name:focus,#password:focus{
+	outline: 0px;
+	border-bottom: 1px solid green;
+	transition: 0.6s;
+}
+#login{
+	width: 200px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-size: 30px;
+	background-color: green;
+	border-radius: 5px;
+	color: white;
+	border:1px solid black;
+	cursor: pointer;
+	transition: 0.6s;
+}
+#login:hover{
+	transform: scale(1.2);
+}
+button{
+	border:0px;
+	cursor: pointer;
+	font-size: 20px;
+	color:blue;
+	background-color: white;
+}
+button:focus-visible{
+	outline: 0px;
+}
